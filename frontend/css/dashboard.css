@@ -67,13 +67,39 @@ body {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
-  
+  .unamedDiv1 {
+    background-color: rgb(123 0 0);
+    border-radius: 10px;
+    height: 85%;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+  }
   .userDiv {
     background-color: rgb(123 0 0);
     border-radius: 10px;
-    height: 30%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 30%;
+  }
+  .statsDiv {
+    background-color: rgb(123 0 0);
+    border-radius: 10px;
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+  }
+  .unamedDiv2 {
+    background-color: rgb(123 0 0);
+    border-radius: 10px;
+    height: 85%;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 73%;
   }

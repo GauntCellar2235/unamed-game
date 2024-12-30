@@ -1,9 +1,11 @@
 body {
     font-family: "Lato", sans-serif;
     background-color: rgb(165 0 0);
+    display: flex;
   }
   .logo {
     color: #fff;
+    text-align: center;
   }
   .sidebar {
     height: 100%;
@@ -51,7 +53,7 @@ body {
   }
   
   .openbtn:hover {
-    background-color: rgb(123 0 0);
+    background-color: c;
     border: 5px solid rgb(91 0 0);
   }
   
@@ -64,4 +66,14 @@ body {
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+  }
+  
+  .userDiv {
+    background-color: rgb(123 0 0);
+    border-radius: 10px;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
   }
